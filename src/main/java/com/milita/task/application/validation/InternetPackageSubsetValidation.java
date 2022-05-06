@@ -16,7 +16,7 @@ public class InternetPackageSubsetValidation implements ConstraintValidator<Inte
 
     @Override
     public boolean isValid(InternetPackage value, ConstraintValidatorContext context) {
-        if ( value == null || Arrays.asList(subset).contains(value)) {
+        if (value == null || Arrays.asList(subset).contains(value)) {
             return true;
         } else {
             throw new InternetPackageException("Field internetPackage should be INTERNET_250_MBPS or INTERNET_1_GBPS");
