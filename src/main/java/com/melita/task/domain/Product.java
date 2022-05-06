@@ -1,11 +1,10 @@
 package com.melita.task.domain;
 
 import com.melita.task.application.validation.*;
+import com.melita.task.domain.internet.InternetPackage;
 import com.melita.task.domain.mobile.MobilePackage;
 import com.melita.task.domain.telephony.TelephonyPackage;
 import com.melita.task.domain.tv.TVPackage;
-import com.milita.task.application.validation.*;
-import com.melita.task.domain.internet.InternetPackage;
 import lombok.Data;
 
 @Data
